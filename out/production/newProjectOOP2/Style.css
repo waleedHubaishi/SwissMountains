@@ -1,0 +1,102 @@
+
+/*.table-row-cell:selected-row {
+    -fx-background-color: red ;
+}*/
+
+
+
+.table-row:selected .table-cell {
+    /* style definitions */
+}
+
+#lightHighlightTable .table-row-cell {
+    -fx-background-color: transparent;
+    -fx-table-cell-border-color: transparent;
+}
+
+#lightHighlightTable.table-view .column-header .label {
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: lightcoral;
+    -fx-alignment: center-left;
+    -fx-opacity: 1;
+}
+
+#lightHighlightTable.table-view .column-header .text {
+    -fx-underline: true;
+}
+
+#lightHighlightTable .table-row-cell:selected {
+    -fx-background-color: lightcoral;
+    -fx-table-cell-border-color: lightcoral;
+}
+
+#lightHighlightTable.table-view:focused {
+    -fx-background-color: transparent /* or transparent or other preferred color */,-fx-box-border,-fx-control-inner-background;
+    -fx-background-insets: -1.4, 0, 1;
+    -fx-background-radius: 1.4, 0, 0;
+    /*....*/
+    -fx-padding: 1; /* 0.083333em; */
+}
+
+#lightHighlightTable.table-view .scroll-bar {
+    -fx-background-color: white;
+
+}
+#lightHighlightTable.table-view .scroll-bar:vertical > .increment-button,
+#lightHighlightTable.table-view .scroll-bar:vertical > .decrement-button {
+    -fx-padding: 0.30em 0.10em  ;
+}
+
+#lightHighlightTable.table-view .column-header-background{
+    -fx-background-color: white;
+    -fx-border-width: 1;
+
+}
+
+#lightHighlightTable.table-view .filler
+{
+    -fx-background-color: white;
+
+}
+
+#lightHighlightTable .table-row-cell {
+    -fx-background-color: white;
+
+}
+
+
+#lightHighlightTable .table-view {
+    -fx-table-cell-border-color: white;
+}
+
+.table-view .column-header.foo .label {
+    -fx-text-fill: red;
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-border-width: 1;
+
+
+
+}
+.table-view .column-header.yoo {
+    -fx-background-color: white;
+
+
+}
+
+
+/*
+#lightHighlightTable .column-header-background { visibility: hidden; -fx-padding: -1em; }
+*/
+
+/*
+.toggle-button {
+    -fx-background-image: ('save.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+*/
+
+/*.toggle-button:selected {
+    -fx-background-image: url('http://icons.iconarchive.com/icons/aha-soft/desktop-buffet/128/Piece-of-cake-icon.png');
+}*/
